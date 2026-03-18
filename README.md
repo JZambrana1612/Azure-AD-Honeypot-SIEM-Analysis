@@ -61,14 +61,14 @@ Over a **3-day period**, the honeypot captured:
 ---
 
 ### 🌍 Geographic Distribution of Attacks
-![Geographic Attack Map](./screenshots/Geographic_distribution_map.png)
+![Geographic Attack Map](./images/Geographic_distribution_map.png)
 
 > 📌 This visualization (created in Tableau) highlights global attack sources, showing concentration in specific regions.
 
 ---
 
 ### 🏢 Top Hosting Providers Used by Attackers
-![Attack Source Providers](./screenshots/top_company_hosting_attackers.png)
+![Attack Source Providers](./images/top_company_hosting_attackers.png)
 
 > 📌 This chart shows the most common hosting providers used in attack attempts, indicating likely use of VPS infrastructure and botnets.
 
