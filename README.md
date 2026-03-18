@@ -136,19 +136,19 @@ Based on findings:
 
 ---
 
-## 📁 Repository Structure
-/images
-├── geo-map.png
-├── attack-bar.png
-
-/queries
-├── failed_logins.kql
-
-/data
-├── sample_logs.csv
-
-README.md
-
+azure-ad-honeypot-siem-analysis/
+├── data/
+│   ├── honeypot_attack_data.xlsx        # Raw exported log data from Sentinel
+│   └── cleaned_attack_summary.csv       # Aggregated attack analysis dataset
+├── images/
+│   ├── geo-map.png                     # Geographic distribution of attacks (Tableau)
+│   └── attack-bar.png                  # Top attacker hosting providers (Tableau)
+├── queries/
+│   └── failed_logins.kql               # KQL query for Event ID 4625 analysis
+├── documentation/
+│   └── setup_notes.md                  # (Optional) Step-by-step lab setup notes
+├── README.md                           # Project overview and analysis
+└── LICENSE
 
 ---
 
