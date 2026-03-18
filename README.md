@@ -173,4 +173,4 @@ azure-ad-honeypot-siem-analysis/
 
 ## 📣 Author
 Jeremy Gutierrez  
-Aspiring Security Analyst | Network Security | SIEM & Threat Detection
+Security Analyst | Network Security | SIEM & Threat Detection
