@@ -99,3 +99,78 @@ Attackers attempted common and service-based usernames:
 
 ## 🧪 Sample Log Data
 Example of captured event:
+Event ID: 4625
+Message: An account failed to log on
+Source: Remote IP
+Status: Failure
+
+---
+
+## 🧠 MITRE ATT&CK Mapping
+| Technique | ID | Description |
+|----------|----|------------|
+| Brute Force | T1110 | Repeated login attempts |
+| Valid Accounts | T1078 | Attempted use of common credentials |
+| Credential Access | TA0006 | Targeting authentication systems |
+
+---
+
+## 📌 Key Findings
+- Attackers begin targeting exposed systems within minutes
+- Majority of traffic is automated (bot-driven)
+- Common credential lists are widely reused
+- Cloud-hosted infrastructure is frequently used for attacks
+- Persistent attack attempts occur over multiple days
+
+---
+
+## 🔐 Security Recommendations
+Based on findings:
+
+- Disable public RDP access  
+- Implement Multi-Factor Authentication (MFA)  
+- Use Network Security Groups (NSGs) with IP restrictions  
+- Enable account lockout policies  
+- Monitor logs with a SIEM (e.g., Sentinel)  
+- Use Just-In-Time (JIT) VM access  
+
+---
+
+## 📁 Repository Structure
+/images
+├── geo-map.png
+├── attack-bar.png
+
+/queries
+├── failed_logins.kql
+
+/data
+├── sample_logs.csv
+
+README.md
+
+
+---
+
+## 🛠️ Tools & Technologies Used
+- Microsoft Azure  
+- Microsoft Sentinel (SIEM)  
+- Azure Monitor Agent (AMA)  
+- Log Analytics Workspace  
+- Windows Event Logs  
+- Tableau (Data Visualization)  
+
+---
+
+## 🚀 Future Improvements
+- Add real-time alerting rules in Sentinel  
+- Implement automated response (SOAR)  
+- Expand to Active Directory attack simulation  
+- Correlate multiple event IDs (4624, 4672, etc.)  
+- Integrate threat intelligence feeds  
+
+---
+
+## 📣 Author
+Jeremy Gutierrez  
+Aspiring Security Analyst | Network Security | SIEM & Threat Detection
